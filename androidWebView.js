@@ -8,6 +8,7 @@
  *
  * @providesModule WebView
  */
+'use strict';
 
 const ReactNative = require('react-native');
 const React = require('react');
