@@ -8,7 +8,6 @@
  *
  * @providesModule WebView
  */
-'use strict';
 
 const ReactNative = require('react-native');
 const React = require('react');
@@ -24,6 +23,8 @@ const requireNativeComponent = ReactNative.requireNativeComponent;
 const resolveAssetSource = ReactNative.Image.resolveAssetSource;
 
 const RCT_WEBVIEW_REF = 'webview';
+
+// add comment to pull request
 
 const WebViewState = keyMirror({
   IDLE: null,
